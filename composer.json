@@ -1,9 +1,11 @@
 {
   "name": "nieuwenhuizen/cr",
   "type": "typo3-flow-package",
-  "description": "Add description here",
+  "description": "Extends TYPO3.TYPO3CR with extra methods to manipulate/create nodes",
   "require": {
-    "typo3/flow": "*"
+    "typo3/flow": "*",
+    "typo3/neos": "*",
+    "typo3/typo3cr": "*"
   },
   "autoload": {
     "psr-0": {
