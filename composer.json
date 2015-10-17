@@ -1,6 +1,7 @@
 {
   "name": "nieuwenhuizen/cr",
   "type": "typo3-flow-package",
+  "license": "MIT",
   "description": "Extends TYPO3.TYPO3CR with extra methods to manipulate/create nodes",
   "require": {
     "typo3/flow": "*",
