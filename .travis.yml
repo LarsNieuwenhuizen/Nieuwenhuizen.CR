@@ -18,5 +18,5 @@ before_install:
 install:
   - mv ../Nieuwenhuizen.CR Packages/Application
 script:
-  - bin/phpunit -c Packages/Application/Nieuwenhuizen.CR/PhpUnit.xml
-  - bin/phpunit --stop-on-failure -c Packages/Application/SimplyAdmire.CrowdConnector/PhpUnit.xml --testsuite "Nieuwenhuizen/CR tests"
+  - bin/phpunit -c Packages/Application/Nieuwenhuizen.CR/UnitTests.xml
+  - bin/phpunit --stop-on-failure -c Packages/Application/Nieuwenhuizen.CR/UnitTests.xml --testsuite "Nieuwenhuizen/CR tests"
