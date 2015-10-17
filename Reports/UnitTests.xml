@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="All tests" tests="1" assertions="2" failures="0" errors="0" time="0.035446">
+    <testsuite name="Nieuwenhuizen\CR\Tests\Unit\Domain\Repository\NodeWriteRepositoryTest" file="/Users/lars/Sites/neos/bujitsudo/htdocs/Packages/Application/Nieuwenhuizen.CR/Tests/Unit/Domain/Repository/NodeWriteRepositoryTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.035446">
+      <testcase name="testIfGetFreeNodeNameReturnsAnNodeName" class="Nieuwenhuizen\CR\Tests\Unit\Domain\Repository\NodeWriteRepositoryTest" file="/Users/lars/Sites/neos/bujitsudo/htdocs/Packages/Application/Nieuwenhuizen.CR/Tests/Unit/Domain/Repository/NodeWriteRepositoryTest.php" line="12" assertions="2" time="0.035446"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
