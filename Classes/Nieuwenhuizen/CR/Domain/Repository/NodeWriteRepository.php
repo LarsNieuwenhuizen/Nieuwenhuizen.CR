@@ -3,9 +3,9 @@ namespace Nieuwenhuizen\CR\Domain\Repository;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Exception;
-use TYPO3\TYPO3CR\Domain\Model\Node;
-use TYPO3\TYPO3CR\Domain\Model\NodeInterface;
-use TYPO3\TYPO3CR\Utility as NodeUtility;
+use Neos\ContentRepository\Domain\Model\Node;
+use Neos\ContentRepository\Domain\Model\NodeInterface;
+use Neos\ContentRepository\Utility as NodeUtility;
 
 /**
  * @Flow\Scope("singleton")

@@ -2,9 +2,9 @@
 namespace Nieuwenhuizen\CR\Domain\Repository;
 
 use Neos\Flow\Annotations as Flow;
-use TYPO3\TYPO3CR\Domain\Service\NodeTypeManager;
-use TYPO3\TYPO3CR\Domain\Service\ContextFactoryInterface;
-use TYPO3\TYPO3CR\Domain\Service\Context;
+use Neos\ContentRepository\Domain\Service\NodeTypeManager;
+use Neos\ContentRepository\Domain\Service\ContextFactoryInterface;
+use Neos\ContentRepository\Domain\Service\Context;
 
 /**
  * @Flow\Scope("singleton")
