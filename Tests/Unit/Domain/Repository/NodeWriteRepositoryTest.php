@@ -1,7 +1,7 @@
 <?php
 namespace Nieuwenhuizen\CR\Tests\Unit\Domain\Repository;
 
-use TYPO3\Flow\Tests\UnitTestCase;
+use Neos\Flow\Tests\UnitTestCase;
 
 class NodeWriteRepositoryTest extends UnitTestCase
 {
@@ -12,7 +12,7 @@ class NodeWriteRepositoryTest extends UnitTestCase
     public function testIfGetFreeNodeNameReturnsAnNodeName()
     {
         $nodeWriteRepositoryMock = $this->getAccessibleMock('Nieuwenhuizen\CR\Domain\Repository\NodeWriteRepository', ['dummy'], [], '', false);
-        $nodeMock = $this->getMock('TYPO3\TYPO3CR\Domain\Model\Node', ['getNode'], [], '', false);
+        $nodeMock = $this->getMock('Neos\ContentRepository\Domain\Model\Node', ['getNode'], [], '', false);
 
         $nodeMock->expects($this->once())->method('getNode');
 

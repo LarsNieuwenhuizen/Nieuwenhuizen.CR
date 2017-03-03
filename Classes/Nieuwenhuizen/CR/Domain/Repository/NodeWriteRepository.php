@@ -1,11 +1,11 @@
 <?php
 namespace Nieuwenhuizen\CR\Domain\Repository;
 
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Flow\Exception;
-use TYPO3\TYPO3CR\Domain\Model\Node;
-use TYPO3\TYPO3CR\Domain\Model\NodeInterface;
-use TYPO3\TYPO3CR\Utility as NodeUtility;
+use Neos\Flow\Annotations as Flow;
+use Neos\Flow\Exception;
+use Neos\ContentRepository\Domain\Model\Node;
+use Neos\ContentRepository\Domain\Model\NodeInterface;
+use Neos\ContentRepository\Utility as NodeUtility;
 
 /**
  * @Flow\Scope("singleton")
@@ -52,7 +52,7 @@ class NodeWriteRepository extends AbstractNodeRepository {
 			$node->setProperty($propertyName, $propertyValue);
 		}
 
-		if ($node->getNodeType()->isOfType('TYPO3.Neos:Document')) {
+		if ($node->getNodeType()->isOfType('Neos.Neos:Document')) {
 			$node->setProperty('uriPathSegment', $node->getName());
 		}
 
