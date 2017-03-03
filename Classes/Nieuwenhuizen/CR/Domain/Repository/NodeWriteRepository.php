@@ -1,8 +1,8 @@
 <?php
 namespace Nieuwenhuizen\CR\Domain\Repository;
 
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Flow\Exception;
+use Neos\Flow\Annotations as Flow;
+use Neos\Flow\Exception;
 use TYPO3\TYPO3CR\Domain\Model\Node;
 use TYPO3\TYPO3CR\Domain\Model\NodeInterface;
 use TYPO3\TYPO3CR\Utility as NodeUtility;

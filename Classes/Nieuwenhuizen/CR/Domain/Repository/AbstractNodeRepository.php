@@ -1,7 +1,7 @@
 <?php
 namespace Nieuwenhuizen\CR\Domain\Repository;
 
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 use TYPO3\TYPO3CR\Domain\Service\NodeTypeManager;
 use TYPO3\TYPO3CR\Domain\Service\ContextFactoryInterface;
 use TYPO3\TYPO3CR\Domain\Service\Context;

@@ -1,7 +1,7 @@
 <?php
 namespace Nieuwenhuizen\CR\Tests\Unit\Domain\Repository;
 
-use TYPO3\Flow\Tests\UnitTestCase;
+use Neos\Flow\Tests\UnitTestCase;
 
 class NodeWriteRepositoryTest extends UnitTestCase
 {
